@@ -10,6 +10,7 @@ class OrderController extends Controller
 {
     public function index(OrderFiler $order)
     {
+        //For testing loading spinner
         sleep(1);
         return $order->for(Order::class)->paginate();
     }
