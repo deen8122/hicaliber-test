@@ -10,10 +10,10 @@ UI from https://element-plus.org/en-US/
 ####
 ![alt text](https://github.com/deen8122/hicaliber-test/blob/main/storage/3.png?raw=true)
 ### Запуск проекта
-####Для бекэнда
+#### Для бекэнда
  - sail up -d 
  - sail artisan migrate
- ####Для фронта
+ #### Для фронта
   - sail bash  и внутри контейнера выполнить
   - npm install && npm run dev
 ## License
